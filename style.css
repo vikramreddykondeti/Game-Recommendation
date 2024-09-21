@@ -1,0 +1,43 @@
+body {
+    background-image: url('file:///path/to/your/background.gif'); /* Update the path to your GIF */
+    background-size: cover;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    text-align: center;
+    color: #FFD700; /* Gold color for title */
+}
+
+h2 {
+    color: #FFD700; /* Gold color for subtitles */
+}
+
+.stButton>button {
+    background-color: #FF6347; /* Tomato color for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.stButton>button:hover {
+    background-color: #FF4500; /* OrangeRed on hover */
+}
+
+.stSelectbox, .stSlider {
+    margin: 20px 0;
+}
+
+.stImage {
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.stMarkdown {
+    font-size: 16px;
+    line-height: 1.5;
+}
